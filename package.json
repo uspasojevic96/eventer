@@ -8,7 +8,7 @@
     "build": "tsc",
     "test": "karma start --single-run"
   },
-  "author": "",
+  "author": "Uros Spasojevic",
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
