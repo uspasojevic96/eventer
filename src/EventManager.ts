@@ -49,7 +49,7 @@ export class EventManager {
      * @param {Function} callback Handler callback 
      */
     public on(event: string, callback: Function): void {
-        let events = this.events[event];
+        let events = this.getEventListeners(event);
 
         if(!events) {
             events = [];

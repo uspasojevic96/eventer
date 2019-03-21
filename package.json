@@ -10,6 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.5",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "^4.0.0",
     "typescript": "^3.3.4000"
   },
   "repository": {
