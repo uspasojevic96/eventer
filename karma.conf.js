@@ -11,20 +11,10 @@ module.exports = function(config) {
         preprocessors: {
             "**/*.ts": "karma-typescript" // *.tsx for React Jsx
         },
-        coverageIstanbulReporter: {
-            reports:['text'],
-            fixWebpackSourcePaths: true,
-            thresholds: {
-                emitWarning: false,
-                global: {
-                    statements: 100
-                },
-                each: {
-                    statements: 100
-                }
-            }
+        coverageReporter: {
+            reporters: [{type: 'lcov'}]
         },
-        reporters: ["coverage-istanbul"],
+        reporters: ['progress', 'coverage'],
         browsers: ["ChromeHeadless"]
     });
 };
