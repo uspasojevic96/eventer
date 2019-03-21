@@ -1,5 +1,5 @@
 {
-  "name": "eventer",
+  "name": "@uspasojevic/eventer",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.3.4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uspasojevic96/eventer"
   }
 }
