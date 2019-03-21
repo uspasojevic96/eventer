@@ -20,7 +20,7 @@ export class EventManager {
      * @public
      */
     public fireEvent(event: string, data?: any): void {
-        let events = this .getEventListeners(event);
+        let events = this.getEventListeners(event);
         if(events) {
             let item = events.length;
 
